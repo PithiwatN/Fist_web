@@ -1,34 +1,89 @@
 <!DOCTYPE html>
 <html>
-   <head>
-       <title>
-           Hello world
-       </title>
-       <style>
-           h1{
-               color: orange;
-               font-size: 30px;
-           }
-           body{
-               background-color: rgb(51, 49, 49);
-           }
-           a{
-               color: white;
-           }
-        </style>   
-   </head>
-   <body>
-       <center>
-          <h1>Hello Pithiwat<br>
-              Nindornwai
-          </h1>
-          <img src="E:\ตัดต่อรูป\test.png" height="500" width="1000"><br>
-          <a href="http://www.google.com">
-             click here
-          </a>
-            Need food<br>
-            Need water
-       </center>
-       <strong>Genshin Impact</strong>
+    <head>
+        <title>
+            Home page
+        </title>  
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
+        <style>
+            body{
+                font-family: arial, sans-serif;
+            }
+            table {
+               border-collapse: collapse;
+               width: 100%;
+            }
+            td, th {
+               /* border: 1px solid #dddddd; */
+               text-align: left;
+               padding: 8px;
+            }
+        </style>
+    </head>
+    <body style="min-height: 1000px; min-width: 10000;">
+        <div style="width:100%; background-color:#b55718; position: sticky; top: 0; font-size: 30px;">
+            <table>
+                <td>
+                    <a href="http://www.google.com">
+                    <img src="https://www.shutterstock.com/image-vector/welcome-calligraphic-inscription-smooth-lines-260nw-1721907820.jpg" height="50" width="100">
+                    </a>
+                </td>
+                <td>
+                    <a href="http://127.0.0.1:5500/test%20java.html" style="text-decoration: none; color: aliceblue;">
+                        Home
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                       About
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                        Studies
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                        Contact
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                        EN
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                        TH<br>
+                    </a>
+                </td>
+                <td>
+                    <a href="http://www.google.com" style="text-decoration: none; color: aliceblue;">
+                        JP
+                    </a>
+                </td>
+            </table>
+        </div>
+         <strong style="color: #b55718;font-size: 100px;">Welcome to my website!</strong><br>
+         <strong style="color: #8d5737;font-size: 50px;">This website develop by PithiwatN.</strong><br>
+         <div>
+            <img src="https://smapse.com/storage/2018/11/universitet-khon-kaen-3.jpg">
+         </div>
+         <script>
+            function myFunction() {
+              document.getElementById("demo").style.fontSize = "25px"; 
+              document.getElementById("demo").style.color = "red";
+              document.getElementById("demo").style.backgroundColor = "yellow";        
+            }
+         </script>
+         <a href="http://www.google.com">
+              <button type="lbutton" oncick="myFunction()">Click Me!</button><br><br>
+         </a>
+         <button type="button"
+              onclick="document.getElementById('demo').innerHTML = Date()">
+              Click me to display Date and Time.
+         </button>
+<p id="demo"></p>
     </body>
-</html>
+</html> 
